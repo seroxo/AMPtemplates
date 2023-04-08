@@ -129,5 +129,21 @@
         "IncludeInCommandLine": false,
         "DefaultValue": "Welcome to Necesse",
         "EnumValues": {}
+    },
+    {
+        "DisplayName": "Allow Cheats",
+        "Category": "Server Settings",
+        "Description": "If true, use F10 ingame to access cheatpanel.",
+        "Keywords": "allow cheats",
+        "FieldName": "allowCheats",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "allowCheats",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "false",
+        "EnumValues": {
+         "false": "false",
+         "true": "true"
+    }
     }
 ]
